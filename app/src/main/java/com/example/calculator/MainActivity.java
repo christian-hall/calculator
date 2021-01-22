@@ -7,6 +7,13 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    double valueOne;
+    double valueTwo;
+    private static final char ADDITION = '+';
+    private static final char SUBTRACTION = '-';
+    private static final char MULTIPLICATION = '*';
+    private static final char DIVISION = '/';
+    private char CURRENT_ACTION;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
         Button clear = (Button) findViewById(R.id.ClearButton);
         TextView entry = (TextView) findViewById(R.id.EntryView);
         TextView progress = (TextView) findViewById(R.id.ProgressView);
+
+
+
 
     }
 }
